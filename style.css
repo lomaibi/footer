@@ -1,0 +1,19 @@
+body{
+    background-color: greenyellow;
+}
+#footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 0%;
+}
+li a{
+    text-decoration: none;
+    //color: yellow;
+}
+li:first-child, li:nth-child(2), li:nth-child(3), li:nth-child(4){
+    margin-bottom: 5px;
+}
